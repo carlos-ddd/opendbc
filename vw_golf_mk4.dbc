@@ -857,11 +857,19 @@ BO_ 424 Bremse_6: 3 XXX
  SG_ Bremsdruck__Bremse_6_ : 0|10@1+ (0.3255,-40) [-40|293] "bar" XXX
 
 BO_ 1192 Bremse_5: 8 XXX
+ SG_ Giergeschwindigkeit : 0|14@1+ (0.01,0) [0|100] "Grad/sec" XXX
  SG_ Checksumme_Bremse_5 : 56|8@1+ (1,0) [0|0] "" XXX
  SG_ Zaehler_Bremse_5 : 52|4@1+ (1,0) [0|15] "" XXX
  SG_ Bremslicht_ECD : 51|1@1+ (1,0) [0|0] "" XXX
  SG_ Bremsentemperatur_vorn : 48|3@1+ (125,125) [125|1000] "C" XXX
- SG_ Frei_Bremse_5_5 : 40|8@1+ (1,0) [0|0] "" XXX
+ SG_ AWV2_Fehler : 47|1@1+ (1,0) [0|0] "" XXX
+ SG_ AWV2_Durchfuehrung_Bremsruck : 46|1@1+ (1,0) [0|0] "" XXX
+ SG_ ECD_Rueckfall : 45|1@1+ (1,0) [0|0] "" XXX
+ SG_ Notbremsung_Notfallblinken : 44|1@1+ (1,0) [0|0] "" XXX
+ SG_ AnhStabAktiv : 43|1@1+ (1,0) [0|0] "" XXX
+ SG_ v_Ueberw : 42|1@1+ (1,0) [0|0] "" XXX
+ SG_ Anfahrhilfe_aktiv : 41|1@1+ (1,0) [0|0] "" XXX
+ SG_ FStatus_Anfahrhilfe : 40|1@1+ (1,0) [0|0] "" XXX
  SG_ Offset_Gierrate : 32|8@1+ (0.05,-6.375) [-6.375|6.375] "deg/s" XXX
  SG_ Vorzeichen_Bremsdruck : 31|1@1+ (1,0) [0|0] "" XXX
  SG_ Status_Bremsdruck_durch_ESP_Sys : 30|1@1+ (1,0) [0|0] "" XXX
@@ -870,7 +878,6 @@ BO_ 1192 Bremse_5: 8 XXX
  SG_ Bremsdruck : 16|12@1+ (0.1,0) [0|250] "bar" XXX
  SG_ Vorzeichen_der_Giergeschwindigk : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ Gierrate_ungueltig : 14|1@1+ (1,0) [0|0] "" XXX
- SG_ Giergeschwindigkeit : 0|14@1+ (0.01,0) [0|100] "Grad/sec" XXX
 
 BO_ 672 Bremse_4: 3 XXX
  SG_ Frei_Bremse_4_1 : 17|7@1+ (1,0) [0|0] "" XXX
