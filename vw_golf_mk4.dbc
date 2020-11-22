@@ -1244,13 +1244,6 @@ BO_ 1470 LDW_1: 8 XXX
  SG_ XX_DLCORTLC1 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ XX_DLCORTLC2 : 32|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 980 mPLA_1: 8 XXX
- SG_ CHECKSUM : 0|8@1+ (1,0) [0|1] "" XXX
- SG_ COUNTER : 8|4@1+ (1,0) [0|1] "" XXX
- SG_ STATEUNKNOWN : 12|4@1+ (1,0) [0|1] "" XXX
- SG_ LM_Offset : 16|15@1+ (0.04375,0) [0|1] "" XXX
- SG_ LM_Offsign : 31|1@0+ (1,0) [0|1] "" XXX
-
 BO_ 1626 mFLA_1: 8 XXX
  SG_ FL_LD_Fehler : 12|1@0+ (1,0) [0|1] "" XXX
  SG_ FL1_FLA_aktiv : 13|1@0+ (1,0) [0|1] "" XXX
